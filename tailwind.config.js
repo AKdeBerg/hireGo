@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         lightBlue: '#B1D8FC',
+        lightBlack: '#323232',
       },
     },
   },
