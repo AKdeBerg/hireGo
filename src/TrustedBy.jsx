@@ -1,10 +1,10 @@
 function TrustedBy() {
   return (
     <section className="p-8">
-      <h2 className="text-xl font-bold text-[#00000073]">
+      <h2 className="text-xl font-bold text-[#00000073] text-center">
         Trusted by <span className="text-black">25,000+</span> companies from startups to enterprise
       </h2>
-      <div className="grid grid-cols-3 gap-4 mt-8">
+      <div className="grid grid-cols-3 gap-4 mt-8 place-items-center">
         <div>
           <img src="/public/assets/shopify.png" alt="Company logo" className="w-20 " />
         </div>

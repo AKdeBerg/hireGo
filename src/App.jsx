@@ -90,7 +90,7 @@ export default function App() {
             </button>
           </div>
           <div className="flex justify-center">
-            <img src="/public/assets/hero.png" className="w-80" />
+            <img src="/public/assets/hero.png" className="w-80 sm:w-3/4" />
           </div>
         </div>
       </header>
