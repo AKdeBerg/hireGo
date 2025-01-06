@@ -8,14 +8,15 @@ function HelpProcess() {
         <div className="md:order-2 md:flex-1">
           <img src="/public/assets/image-5.png" className="rounded-t-3xl md:rounded-none md:rounded-r-3xl" />
         </div>
-        <div className="bg-[#B1D8FC] p-4 space-y-4 rounded-b-3xl md:rounded-none md:rounded-l-3xl md:flex-1 md:p-8">
-          <img src="/public/assets/pink_star.png" alt="" />
-          <h3 className="text-xl font-semibold">
+
+        <div className="bg-[#B1D8FC] p-4 space-y-4 rounded-b-3xl md:rounded-none md:rounded-l-3xl md:flex-1  md:flex md:flex-col md:justify-center">
+          <img src="/public/assets/pink_star.png" className="w-10 h-10" />
+          <h3 className="text-xl font-semibold lg:pr-24">
             {' '}
             “Saving time and simplifying the process and saving money. It was the triple trifecta.”
           </h3>
           <p>Ally Fekaiki, CEO - Soho, New York</p>
-          <button className="bg-white rounded-full flex items-center px-6 py-2 font-semibold border border-solid border-[#000000A6]">
+          <button className="bg-white rounded-full flex items-center px-6 py-2 font-semibold border border-solid border-[#000000A6] md:w-40">
             Learn more
             <svg
               className="w-4 h-4 ml-2"
