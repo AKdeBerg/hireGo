@@ -1,12 +1,14 @@
 function HelpProcess() {
   return (
     <section className="bg-[#323232] py-6">
-      <h2 className="text-2xl text-white font-semibold text-center p-10">We help teams grow faster across borders.</h2>
-      <article className="px-6">
-        <div>
-          <img src="/public/assets/image-5.png" className="rounded-t-3xl" />
+      <h2 className="text-2xl text-white font-semibold text-center p-10">
+        We help teams grow faster <br /> across borders.
+      </h2>
+      <article className="px-6 md:flex">
+        <div className="md:order-2 md:flex-1">
+          <img src="/public/assets/image-5.png" className="rounded-t-3xl md:rounded-none md:rounded-r-3xl" />
         </div>
-        <div className="bg-[#B1D8FC] p-4 space-y-4 rounded-b-3xl">
+        <div className="bg-[#B1D8FC] p-4 space-y-4 rounded-b-3xl md:rounded-none md:rounded-l-3xl md:flex-1 md:p-8">
           <img src="/public/assets/pink_star.png" alt="" />
           <h3 className="text-xl font-semibold">
             {' '}
