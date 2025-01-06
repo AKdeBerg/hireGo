@@ -1,10 +1,13 @@
 function ProcessSection() {
   return (
     <section className="bg-lightBlack rounded-3xl pb-14">
-      <h2 className="text-2xl font-bold text-white text-center px-28 py-8">You can do it all. With HireGO.</h2>
+      <h2 className="text-2xl font-bold text-white text-center px-28 py-8">
+        You can do it all.
+        <br /> With HireGO.
+      </h2>
 
       <div className="md:grid md:grid-cols-4 md:gird-rows-2">
-        <article className="mb-4 bg-[#FFFFFF1A] text-white p-8 rounded-3xl mx-6 md:col-span-2 md:row-span-2">
+        <article className="mb-4 bg-[#FFFFFF1A] text-white p-8 rounded-3xl mx-6 md:ml-14 md:mr-2 md:col-span-2 md:row-span-2">
           <h3 className="text-2xl font-bold">Hire international talent</h3>
           <p className="mt-4 text-sm text-[#FFFFFFA6]">
             Instead of setting up your own entities, experience the speed of HireGO&apos;s automated global hiring.
@@ -25,7 +28,7 @@ function ProcessSection() {
           <img className="mt-6" src="/public/assets/service.png" />
         </article>
 
-        <article className="mb-4 bg-[#3A5C45] text-white p-8 rounded-3xl mx-6 md:col-span-2">
+        <article className="mb-4 bg-[#3A5C45] text-white p-8 rounded-3xl mx-6 md:ml-2 md:mr-14 md:col-span-2">
           <h3 className="text-2xl font-bold">Hire contractors</h3>
           <p className="mt-4 text-sm text-[#FFFFFFA6]">
             Generate, edit, and sign compliant contracts in minutes and access management tools to streamline paperwork,
@@ -45,7 +48,7 @@ function ProcessSection() {
           </button>
         </article>
 
-        <article className="mb-4 bg-[#B1D8FC] text-[#000000D9] p-8 rounded-3xl mx-6 md:col-span-2">
+        <article className="mb-4 bg-[#B1D8FC] text-[#000000D9] p-8 rounded-3xl mx-6 md:ml-2 md:mr-14 md:col-span-2">
           <h3 className="text-2xl font-bold">Convert contractors to employees</h3>
           <p className="mt-4 text-sm text-[ #000000A6]">
             Assess global worker misclassification risks and compliantly convert contractors to full-timers, all under
@@ -69,17 +72,17 @@ function ProcessSection() {
       <hr className="border-t border-[#FFFFFF29] mx-6 mt-10" />
 
       <article className="p-8 mx-6 space-y-6">
-        <div className="flex flex-col justify-center items-center gap-8 md:flex-row md:justify-between">
+        <div className="flex flex-col gap-8 md:flex-row md:justify-between">
           <div className="space-y-2">
-            <h2 className="text-6xl font-semibold text-[#B0D9FF]">5,000+</h2>
+            <h2 className="text-5xl font-semibold text-[#B0D9FF]">5,000+</h2>
             <p className="text-base text-white font-thin">Loved by 5,000+ Team Members</p>
           </div>
           <div className="space-y-2">
-            <h2 className="text-6xl font-semibold text-[#B0D9FF]">25,000+</h2>
+            <h2 className="text-5xl font-semibold text-[#B0D9FF]">25,000+</h2>
             <p className="text-base text-white font-thin">Trusted by 25,000+ customers</p>
           </div>
           <div className="space-y-2">
-            <h2 className="text-6xl font-semibold text-[#B0D9FF]">48 hrs</h2>
+            <h2 className="text-5xl font-semibold text-[#B0D9FF]">48 hrs</h2>
             <p className="text-base text-white font-thin">Onboard talent in as little as 48 hours</p>
           </div>
         </div>
