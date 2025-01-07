@@ -37,19 +37,22 @@ function Footer() {
         </div>
       </div>
 
-      <hr className="border-t border-[#FFFFFF29]  mx-6 my-10" />
-      <div className="text-[#FFFFFF66] text-xs p-8 space-y-4">
-        <p className="text-white">© Copyright 2024. All Rights Reserved.</p>
-        <p>Privacy Policy</p>
-        <p>Terms of Service</p>
-        <p>Whistleblower Policy</p>
-        <p>Cookie policy</p>
-        <p>Cookie Settings</p>
+      <hr className="border-t border-[#FFFFFF29]  mx-6 my-10 md:my-0" />
+      <div className="text-[#FFFFFF66] text-xs p-8 space-y-4 md:p-0 md:py-2 md:px-6 md:flex md:justify-between md:items-center">
+        <div>
+          <p className="text-white">©Copyright 2024. All Rights Reserved.</p>
+        </div>
+
+        <div className="space-y-4 md:space-y-0 md:flex md:gap-4 md:items-center md:pb-3">
+          <p>Privacy Policy</p>
+          <p>Terms of Service</p>
+          <p>Whistleblower Policy</p>
+          <p>Cookie policy</p>
+          <p>Cookie Settings</p>
+        </div>
       </div>
     </section>
   );
 }
 
 export default Footer;
-// border-[#FFFFFF29]
-// background: #FFFFFF66;
