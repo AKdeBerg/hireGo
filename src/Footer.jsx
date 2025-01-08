@@ -27,10 +27,10 @@ function Footer() {
         <div className="space-y-8">
           <h2 className="text-3xl text-white">HireGo</h2>
           <div className="flex space-x-6">
-            <img src="/public/assets/twitter.png" className="w-10 h-10" />
-            <img src="/public/assets/ln.png" className="w-10 h-10" />
-            <img src="/public/assets/fb.png" className="w-10 h-10" />
-            <img src="/public/assets/ig.png" className="w-10 h-10" />
+            <img src="/assets/twitter.png" className="w-10 h-10" />
+            <img src="/assets/ln.png" className="w-10 h-10" />
+            <img src="/assets/fb.png" className="w-10 h-10" />
+            <img src="/assets/ig.png" className="w-10 h-10" />
           </div>
         </div>
 
@@ -75,7 +75,7 @@ function Footer() {
       </div>
 
       <div className="pl-8 md:pl-12 md:pb-6 flex space-x-2 items-center text-sm">
-        <img src="/public/assets/globe.png" className="w-4 h-4" />
+        <img src="/assets/globe.png" className="w-4 h-4" />
         <div className="text-white">English</div>
       </div>
 

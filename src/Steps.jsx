@@ -7,14 +7,14 @@ function Steps() {
       <div className="space-y-2 md:space-y-0 md:grid md:grid-cols-6 md:grid-row-4 md:gap-2">
         {/* left side */}
         <div className="md:col-span-3 md:row-span-4">
-          <img src="/public/assets/image-6.png" className="rounded-3xl  md:h-full" />
+          <img src="/assets/image-6.png" className="rounded-3xl  md:h-full" />
         </div>
 
         {/* right side */}
         <article className="bg-[#F5F5F5] rounded-3xl p-6 space-y-4 md:col-span-3 md:col-start-4">
           <div className="space-y-4">
             <div className="flex space-x-4">
-              <img src="/public/assets/one.png" className="w-10 h-10" />
+              <img src="/assets/one.png" className="w-10 h-10" />
               <div className="space-y-4">
                 <h3 className="text-xl font-bold">Book a call</h3>
                 <p className="text-[#000000A6] text-sm">
@@ -29,7 +29,7 @@ function Steps() {
         <article className="bg-[#F5F5F5] rounded-3xl p-6 space-y-4 md:col-span-3 md:col-start-4 md:row-start-2">
           <div className="space-y-4">
             <div className="flex space-x-4">
-              <img src="/public/assets/two.png" className="w-10 h-10" />
+              <img src="/assets/two.png" className="w-10 h-10" />
               <div className="space-y-4">
                 <h3 className="text-xl font-bold">Add your people</h3>
                 <p className="text-[#000000A6] text-sm">
@@ -42,7 +42,7 @@ function Steps() {
         <article className="bg-[#F5F5F5] rounded-3xl p-6 space-y-4 md:col-span-3 md:row-span-2 md:col-start-4 md:row-start-3">
           <div className="space-y-4">
             <div className="flex space-x-4">
-              <img src="/public/assets/three.png" className="w-10 h-10" />
+              <img src="/assets/three.png" className="w-10 h-10" />
               <div className="space-y-4">
                 <h3 className="text-xl font-bold">Dedicated onboarding</h3>
                 <p className="text-[#000000A6] text-sm">

@@ -8,7 +8,7 @@ function Benefits() {
 
       <article className="space-y-4 md:flex md:gap-4">
         <div className="md:order-2">
-          <img src="/public/assets/image-3.png" />
+          <img src="/assets/image-3.png" />
         </div>
         <div className="space-y-4 md:self-center">
           <h3 className="text-2xl font-semibold text-[#FD852F] pr-24">Culture and performance. It&apos;s up and up.</h3>
@@ -33,7 +33,7 @@ function Benefits() {
 
       <article className="space-y-4 md:flex md:gap-4">
         <div>
-          <img src="/public/assets/image-4.png" className="md:rounded-3xl" />
+          <img src="/assets/image-4.png" className="md:rounded-3xl" />
         </div>
         <div className="space-y-4 md:self-center">
           <h3 className="text-2xl font-semibold text-[#9149ED] pr-32">It&apos;s payroll software. Just faster.</h3>

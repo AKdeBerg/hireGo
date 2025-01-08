@@ -170,11 +170,11 @@ export default function App() {
             </h2>
             <ul className="list-none pl-4">
               <li className="flex items-center py-2">
-                <img src="/public/assets/Check_ring.png" className="w-6 h-6 mr-2" />
+                <img src="/assets/Check_ring.png" className="w-6 h-6 mr-2" />
                 <span className="text-slate-600">G3&apos;s Leader in global employment platforms</span>
               </li>
               <li className="flex items-center py-2">
-                <img src="/public/assets/Check_ring.png" className="w-6 h-6 mr-2" />
+                <img src="/assets/Check_ring.png" className="w-6 h-6 mr-2" />
                 <span className="text-slate-600">90% customer satisfaction rate</span>
               </li>
             </ul>
@@ -195,7 +195,7 @@ export default function App() {
 
           {/* right side */}
           <div className="flex justify-center lg:absolute lg:top-20  lg:right-10 lg:transform lg:translate-x-10">
-            <img src="/public/assets/hero.png" className="w-80 sm:w-3/4 md:w-2/4 lg:w-[600px]" />
+            <img src="/assets/hero.png" className="w-80 sm:w-3/4 md:w-2/4 lg:w-[600px]" />
           </div>
         </div>
       </header>
