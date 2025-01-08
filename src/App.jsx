@@ -16,10 +16,66 @@ export default function App() {
   return (
     <>
       <header>
-        <div className="bg-white p-4 container mx-auto flex justify-between items-center">
+        <div className="bg-white p-4  flex gap-6 justify-between items-center">
           <h1 className="text-black text-2xl font-bold">HireGo</h1>
+          {/* desktop nav */}
+          <nav className="hidden lg:flex gap-4 items-center justify-between w-full">
+            <div className="space-x-4">
+              <a href="#products" className="text-black">
+                Products
+              </a>
+              <a href="#solutions" className="text-black">
+                Solutions
+              </a>
+              <a href="#why-hirego" className="text-black">
+                Why HireGo
+              </a>
+              <a href="#pricing" className="text-black">
+                Pricing
+              </a>
+              <a href="#resources" className="text-black">
+                Resources
+              </a>
+            </div>
+
+            <div className="flex gap-2">
+              <button className="bg-white text-black border border-solid border-slate rounded-full flex items-center px-6 py-2">
+                Log in
+              </button>
+              <button className="bg-white text-black border border-solid border-slate rounded-full flex items-center px-4 py-2">
+                <svg
+                  className="w-4 h-4 mr-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0v20m0-20a10 10 0 010 20m0-20a10 10 0 010 20"
+                  />
+                </svg>
+                English
+              </button>
+              <button className="bg-black text-white rounded-full flex items-center px-6 py-2">
+                Request a demo
+                <svg
+                  className="w-4 h-4 ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          {/* mobile nav */}
           <nav>
-            <button className="text-white focus:outline-none" onClick={toggleMenu}>
+            <button className="text-white focus:outline-none lg:hidden" onClick={toggleMenu}>
               <svg
                 className="w-8 h-8 text-white"
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +89,7 @@ export default function App() {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-12 right-4 bg-white shadow-lg rounded-lg p-4">
+              <div className="absolute top-12 right-4 z-10 bg-white shadow-lg rounded-lg p-4">
                 <ul>
                   <li className="py-2">
                     <a href="#products" className="text-black">
@@ -54,6 +110,51 @@ export default function App() {
                     <a href="#pricing" className="text-black">
                       Pricing
                     </a>
+                  </li>
+                  <li className="py-2">
+                    <a href="#pricing" className="text-black">
+                      Resources
+                    </a>
+                  </li>
+                </ul>
+                <ul className="space-y-2">
+                  <li>
+                    <button className=" bg-white text-black border border-solid border-slate rounded-full flex items-center px-6 py-2">
+                      Log in
+                    </button>
+                  </li>
+                  <li>
+                    <button className=" bg-white text-black border border-solid border-slate rounded-full flex items-center px-4 py-2">
+                      <svg
+                        className="w-4 h-4 mr-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0v20m0-20a10 10 0 010 20m0-20a10 10 0 010 20"
+                        />
+                      </svg>
+                      English
+                    </button>
+                  </li>
+                  <li>
+                    <button className=" bg-black text-white rounded-full flex items-center px-6 py-2">
+                      Request a demo
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
                   </li>
                 </ul>
               </div>
