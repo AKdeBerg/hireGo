@@ -60,8 +60,10 @@ export default function App() {
             )}
           </nav>
         </div>
-        <div className="bg-lightBlue pb-10 rounded-b-3xl">
-          <div>
+
+        <div className="bg-lightBlue pb-10 rounded-b-3xl lg:relative lg:pl-10 lg:py-16">
+          {/* left side */}
+          <div className="lg:w-2/4 md:p-4">
             <h2 className="text-5xl text-black font-semibold text-left pt-8 pb-2 pl-4 pr-16">
               HireGO is your all-in-one Global People Platform
             </h2>
@@ -89,8 +91,10 @@ export default function App() {
               </svg>
             </button>
           </div>
-          <div className="flex justify-center">
-            <img src="/public/assets/hero.png" className="w-80 sm:w-3/4" />
+
+          {/* right side */}
+          <div className="flex justify-center lg:absolute lg:top-20  lg:right-10 lg:transform lg:translate-x-10">
+            <img src="/public/assets/hero.png" className="w-80 sm:w-3/4 md:w-2/4 lg:w-[600px]" />
           </div>
         </div>
       </header>
